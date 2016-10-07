@@ -1,0 +1,1 @@
+$(document).ready(function(){$(window).scroll(function(){var o=$(window).scrollTop();o>=370?$("body").addClass("on-scrolled"):$("body").removeClass("on-scrolled")}),$(".menu-button").click(function(){$(".responsive-menu nav").slideToggle(),$(this).toggleClass("show")})});
