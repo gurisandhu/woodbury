@@ -20,6 +20,7 @@
 	<script src="https://use.typekit.net/bfk3wzf.js"></script>
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="library/swiper.min.js"></script>
 	<script type="text/javascript" src="compressed/script.js"></script>
 </body>
 </html>

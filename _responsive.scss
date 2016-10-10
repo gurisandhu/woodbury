@@ -1,4 +1,7 @@
 @media screen and (max-width: 1300px){
+	body{
+		background-color: red;
+	}
 	.section-2{
 		.container{
 			padding-top: 70px;
@@ -19,6 +22,9 @@
 	}
 }//1300
 @media screen and (max-width: 1160px){
+	body{
+		background-color: blue;
+	}
 	h2{
 		&:after{
 			left: 44.4%;
@@ -74,8 +80,8 @@
 	}
 	.section-3{
 		.col-2{
-			&:first-child{
-				padding: 0 60px;	
+			&:last-child{
+				padding: 20px 60px;	
 			}
 		}
 	}
@@ -84,7 +90,9 @@
 	}
 }//1100
 @media screen and (max-width: 950px){
-
+	body{
+		background-color: yellow;
+	}
 	.logo{
 		img{
 			&:nth-of-type(1){
@@ -122,13 +130,18 @@
 	.section-3{
 		.col-2{
 			min-height: 244px;
-			&:first-child{
-				padding: 0 50px;
+			&:last-child{
+				padding: 20px 50px;
 			}
 		}
 	}
 	.banner-2{
 		height: 300px;
+	}
+	h2{
+		&:after{
+			left: 42.4%;
+		}
 	}
 }//950
 @media screen and (max-width: 782px){
@@ -140,6 +153,9 @@
 }//782 wp admin menu
 
 @media screen and (max-width: 780px){
+	body{
+		background-color: green;
+	}
 	.logo{
 		img{
 			&:nth-of-type(1){
@@ -150,8 +166,86 @@
 			}
 		}
 	}
+	h2{
+		font-size: 42px;
+		&:after{
+			left: 40.4%;
+		}
+	}
+	.section-2{
+		.container{
+			padding-bottom: 45px;
+		}
+	}
+	.section-3{
+		top: 0;
+		margin-bottom: 0;
+		background-color: lighten($creme, 15%);
+		padding-bottom: 8%;
+		.col-2{
+			float: none;
+			width: 100%;
+			&.table{
+				width: 100%;
+			}
+			&:last-child{
+				left: 0;
+			}
+		}
+	}
+	.common-section{
+		padding: 0;
+	}
+	.section-2{
+		background-color: lighten($creme, 15%);
+		.container{
+			padding-bottom: 0;
+			padding-top: 0;
+		}
+	}
+	.common-section{
+		padding-top: 8%;
+		padding-bottom: 8%;
+	}
+	.home-banner{
+		padding-top: 14%;
+	}
+	.banner-2{
+		height: 230px;
+	}
+	.banner-3{
+		margin-top: 0;
+		height: 400px;
+	}
+	.sub-footer{
+		height: 500px;
+	}
+	footer{
+		text-align: center;
+		.col-2{
+			width: auto;
+			margin-left: auto;
+			margin-right: auto;
+			float: none;
+			display: inline-block;
+			ul{
+				margin: 0 auto;
+			}
+			&:last-child{
+				margin-top: 15px;
+				text-align: center;
+				ul{
+					float: none;
+				}
+			}
+		}
+
+	}
 }//780
 @media screen and (max-width: 600px){
+	body{
+		background-color: pink;
+	}
 	.logo{
 		height: 36px;
 		img{
@@ -172,8 +266,42 @@
 		width: 106px;
 		top: 2px;
 	}
+	h2{
+		letter-spacing: 7px;
+		&:after{
+			left: 37.4%;
+		}
+	}
+	.on-scrolled{
+		.logo{
+			img{
+				&:nth-of-type(2){
+					top: 8px;
+				}
+			}
+		}
+	}
+	.banner-2{
+		height: 170px;
+	}
+	.banner-3{
+		height: 205px;
+	}
+	.sub-footer{
+		height: 447px;
+	}
+	.common-section{
+		padding-top: 12%;
+		padding-bottom: 12%;
+	}
+	.section-3{
+		padding-bottom: 12%;
+	}
 }//600
 @media screen and (max-width: 400px){
+	body{
+		background-color: brown;
+	}
 	.logo{
 		img{
 			&:nth-of-type(1){
@@ -204,5 +332,52 @@
 	.home-banner{
 		-ms-background-position-x: 60%;
 		    background-position-x: 60%;
+	}
+	h2{
+		letter-spacing: 2px;
+		font-size: 35px;
+		-ms-overflow-y: scroll;
+		    overflow-y: scroll;
+		&:after{
+			left: 32.4%;
+		}
+	}
+	.section-3{
+		.container{
+			padding-left: 0;
+			padding-right: 0;
+		}
+		.col-2{
+			min-height: 150px;
+			&:last-child{
+				padding: 35px;
+			}
+		}
+	}
+	.banner-2{
+		height: 120px;
+	}
+	.talk{
+		a{
+			font-size: 32px;
+		}
+		.fa{
+			&:after{
+				top: 15px;
+				height: 3px;
+			}
+		}
+	}
+	footer{
+		font-size: 9px;
+	}
+	.on-scrolled{
+		.logo{
+			img{
+				&:nth-of-type(2){
+					top: 3px;
+				}
+			}
+		}
 	}
 }//400

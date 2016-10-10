@@ -1,12 +1,23 @@
 <?php include 'header.php'; ?>
-	
-<section class="home-banner banner table" style="background-image: url('compressed/uploads/Woodbury_Samples_TestColours_0030.jpg');">
-	<div class="table-cell">
-		<div class="container">
-			<h1 class="creme">Secure <span>your</span> wealth</h1>
-		</div>
+
+<div class="swiper-container">
+	<div class="swiper-wrapper">
+		<section class="swiper-slide home-banner banner table" style="background-image: url('compressed/uploads/Woodbury_Samples_TestColours_0030.jpg');">
+			<div class="table-cell">
+				<div class="container">
+					<h1 class="creme">Secure <span>your</span> wealth</h1>
+				</div>
+			</div>
+		</section>
+		<section class="swiper-slide home-banner banner table" style="background-image: url('compressed/uploads/Woodbury_Samples_TestColours_0001.jpg');">
+			<div class="table-cell">
+				<div class="container">
+					<h1 class="creme">Secure <span>your</span> wealth</h1>
+				</div>
+			</div>
+		</section>
 	</div>
-</section>
+</div>	
 
 <section class="section-2 common-section">
 	<div class="container">
@@ -17,15 +28,15 @@
 </section>
 <section class="section-3">
 	<div class="container">
+		<div class="col-2" style="background-image: url('compressed/uploads/Woodbury_Samples_TestColours_0007.jpg');">
+			<!-- bg img -->
+		</div>
 		<div class="col-2 table">
 			<div class="table-cell">
 				<blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore praesentium qui voluptate, optio quod doloribus corrupti.</blockquote>
 			<div class="quote-by">- KM, CFO F400 <span>Company</span></div>	
 			</div>
 			
-		</div>
-		<div class="col-2" style="background-image: url('compressed/uploads/Woodbury_Samples_TestColours_0007.jpg');">
-			<!-- bg img -->
 		</div>
 	</div>
 </section>
@@ -70,14 +81,15 @@
 </section>
 <section class="section-3">
 	<div class="container">
+		<div class="col-2" style="background-image: url('compressed/uploads/Woodbury_Samples_TestColours_0007.jpg');">
+			<!-- bg img -->
+		</div>
 		<div class="col-2 table">
 			<div class="table-cell">
 				<blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore praesentium qui voluptate, optio quod doloribus corrupti.</blockquote>
 			<div class="quote-by">- KM, CFO F400 <span>Company</span></div>	
 			</div>
-		</div>
-		<div class="col-2" style="background-image: url('compressed/uploads/Woodbury_Samples_TestColours_0005.jpg');">
-			<!-- bg img -->
+			
 		</div>
 	</div>
 </section>

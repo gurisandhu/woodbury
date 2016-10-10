@@ -332,8 +332,12 @@ header{
 		background-color: $violet;
 		color: white;
 		min-height: 287px;
-		&:first-child{
+		float: right;
+		&:last-child{
 			padding: 0 90px;
+			float: left;
+			position: relative;
+			left: 1px;
 		}
 		-webkit-background-size: cover;
 		     -o-background-size: cover;
@@ -369,6 +373,8 @@ header{
 	     -o-background-size: cover;
 	        background-size: cover;
 	    background-repeat: no-repeat;
+	    -ms-background-position-x: 50%;
+	        background-position-x: 50%;
 }
 .section-5{
 	background-color: $violet;
@@ -394,6 +400,22 @@ header{
 }
 .talk{
 	text-align: center;	
+		.fa{
+			color: #FFF;
+			@include transition(.3);
+			position: relative;
+			left: 0;
+			&:after{
+				position: absolute;
+				@include transition(.3);
+				content: "";
+				    height: 4px;
+				    width: 0;
+				    top: 22.3px;
+				    right: 7px;
+				    background: white;
+			}
+		}
 		a{
 			color: $creme;
 			text-transform: uppercase;
@@ -403,6 +425,12 @@ header{
 			text-decoration: none;
 			&:hover{
 				text-decoration: none;
+				.fa{
+					left: 34px;
+					&:after{
+						width: 36px;
+					}
+				}
 			}
 		}
 }

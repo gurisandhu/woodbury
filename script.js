@@ -26,4 +26,19 @@ $(document).ready(function(){
 		$(this).toggleClass('show');
 	});//end of menu button
 
+
+	// ++++++++++++++++++++
+	// Slider (On Home page)
+	// ++++++++++++++++++++
+
+	//Single page product images Slider
+  var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        spaceBetween: 30,
+        autoplay: 2500,
+        effect: 'fade'
+    });
 });//end of document ready

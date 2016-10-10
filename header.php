@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css?ver=4.4.2">
 	<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300i" rel="stylesheet">
 	<link rel="icon" href="compressed/uploads/fevicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="library/swiper.min.css">
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -17,7 +18,7 @@
 					<div class="col-3">
 						<nav>
 							<ul class="row">
-								<li><a href="#">Philosophy</a></li>
+								<li><a href="template-secondary.php">Philosophy</a></li>
 								<li><a href="#">Services</a></li>
 								<li><a href="#">Process</a></li>
 							</ul>
