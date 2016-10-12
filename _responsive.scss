@@ -17,6 +17,12 @@
 			padding-right: 8%;
 		}
 	}
+	.section-3b{
+		.container{
+			padding-left: 8%;
+			padding-right: 8%;
+		}
+	}
 	.banner-2{
 		height: 450px;
 	}
@@ -78,7 +84,7 @@
 			top: 36px;
 		}
 	}
-	.section-3{
+	.section-3, .section-3b{
 		.col-2{
 			&:last-child{
 				padding: 20px 60px;	
@@ -87,6 +93,11 @@
 	}
 	.banner-2{
 		height: 380px;
+	}
+	.inner-banner{
+		min-height: inherit;
+		height: 640px;
+		margin-bottom: 0;
 	}
 }//1100
 @media screen and (max-width: 950px){
@@ -127,7 +138,7 @@
 			}
 		}
 	}
-	.section-3{
+	.section-3, .section-3b{
 		.col-2{
 			min-height: 244px;
 			&:last-child{
@@ -142,6 +153,9 @@
 		&:after{
 			left: 42.4%;
 		}
+	}
+	.inner-banner{
+		height: 525px;
 	}
 }//950
 @media screen and (max-width: 782px){
@@ -177,7 +191,7 @@
 			padding-bottom: 45px;
 		}
 	}
-	.section-3{
+	.section-3, .section-3b{
 		top: 0;
 		margin-bottom: 0;
 		background-color: lighten($creme, 15%);
@@ -217,6 +231,9 @@
 		margin-top: 0;
 		height: 400px;
 	}
+	.banner-4{
+		height: 400px;
+	}
 	.sub-footer{
 		height: 500px;
 	}
@@ -241,6 +258,9 @@
 		}
 
 	}
+	.inner-banner{
+		height: 405px;
+	}
 }//780
 @media screen and (max-width: 600px){
 	body{
@@ -264,7 +284,7 @@
 	}
 	.menu-button{
 		width: 106px;
-		top: 2px;
+		top: -9px;
 	}
 	h2{
 		letter-spacing: 7px;
@@ -280,11 +300,14 @@
 				}
 			}
 		}
+		.menu-button{
+			top: -1px;
+		}
 	}
 	.banner-2{
 		height: 170px;
 	}
-	.banner-3{
+	.banner-3, .banner-4{
 		height: 205px;
 	}
 	.sub-footer{
@@ -294,8 +317,41 @@
 		padding-top: 12%;
 		padding-bottom: 12%;
 	}
-	.section-3{
+	.section-3, .section-3b{
 		padding-bottom: 12%;
+	}
+	.inner-banner{
+		height: 275px;
+	}
+	header{
+		height: 60px;
+	}
+	.inner-intro{
+		h1{
+			font-size: 40px;
+		}	
+	}
+	.section-4{
+		.container{
+			padding-left: 5%;
+			padding-right: 5%;
+		}
+		.col-2{
+			width: 100%;
+			&:nth-of-type(2n+2){
+				margin-left: 0;
+			}
+			&:nth-last-of-type(2){
+				margin-bottom: 30px;
+			}
+		}
+	}
+	.two-third{
+		width: 46%;
+	}
+	.one-third{
+		width: 54%;
+		text-align: center;
 	}
 }//600
 @media screen and (max-width: 400px){
@@ -311,11 +367,12 @@
 		}
 	}
 	header{
-		height: 70px;
+		height: 43px;
 	}
 	.menu-button{
-		width: 139px;
-		top: -4px;
+		width: 82px;
+		top: -16px;
+		right: 10px;
 		&:before,
 		&:after{
 			left: 63%;
@@ -342,7 +399,7 @@
 			left: 32.4%;
 		}
 	}
-	.section-3{
+	.section-3, .section-3b{
 		.container{
 			padding-left: 0;
 			padding-right: 0;
@@ -379,5 +436,8 @@
 				}
 			}
 		}
+	}
+	.inner-banner{
+		height: 190px;
 	}
 }//400

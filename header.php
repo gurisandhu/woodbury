@@ -52,7 +52,7 @@
 						<div class="table">
 							<div class="table-cell">
 								<ul class="row">
-									<li><a href="#">Philosophy</a></li>
+									<li><a href="template-secondary.php">Philosophy</a></li>
 									<li><a href="#">Services</a></li>
 									<li><a href="#">Process</a></li>
 									<li><a href="#">Advisors</a></li>
