@@ -18,24 +18,24 @@
 					<div class="col-3">
 						<nav>
 							<ul class="row">
-								<li><a href="template-secondary.php">Philosophy</a></li>
-								<li><a href="#">Services</a></li>
-								<li><a href="#">Process</a></li>
+								<li><a href="page-philosophy.php">Philosophy</a></li>
+								<li><a href="page-services.php">Services</a></li>
+								<li><a href="page-process.php">Process</a></li>
 							</ul>
 						</nav>
 					</div>
 					<div class="col-3">
-						<div class="logo">
+						<a href="/woodbury/" class="logo">
 							<img src="compressed/uploads/logo.svg" alt="">
 							<img src="compressed/uploads/w_logo.svg" alt="">
-						</div>
+						</a>
 					</div>
 					<div class="col-3">
 						<nav>
 							<ul class="row">
-								<li><a href="#">Advisors</a></li>
-								<li><a href="#">Resources</a></li>
-								<li><a href="#">Contact</a></li>
+								<li><a href="page-advisors.php">Advisors</a></li>
+								<li><a href="page-resources.php">Resources</a></li>
+								<li><a href="page-contact.php">Contact</a></li>
 							</ul>
 						</nav>
 					</div>
@@ -44,20 +44,20 @@
 						<!--Responsive menu button -->
 				</div>
 				<div class="responsive-menu row">
-					<div class="logo">
+					<a href="/woodbury/" class="logo">
 						<img src="compressed/uploads/logo.svg" alt="">
 						<img src="compressed/uploads/w_logo.svg" alt="">
-					</div>
+					</a>
 					<nav>
 						<div class="table">
 							<div class="table-cell">
 								<ul class="row">
-									<li><a href="template-secondary.php">Philosophy</a></li>
-									<li><a href="#">Services</a></li>
-									<li><a href="#">Process</a></li>
-									<li><a href="#">Advisors</a></li>
-									<li><a href="#">Resources</a></li>
-									<li><a href="#">Contact</a></li>
+									<li><a href="page-philosophy.php">Philosophy</a></li>
+									<li><a href="page-services.php">Services</a></li>
+									<li><a href="page-process.php">Process</a></li>
+									<li><a href="page-advisors.php">Advisors</a></li>
+									<li><a href="page-resources.php">Resources</a></li>
+									<li><a href="page-contact.php">Contact</a></li>
 								</ul>
 							</div>
 						</div>

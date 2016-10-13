@@ -1,6 +1,6 @@
 <?php include 'header.php'; ?>
 
-<section class="inner-banner" style="background-image: url('compressed/uploads/Woodbury_Samples_TestColours_0001.jpg');">
+<section class="inner-banner parallax" style="background-image: url('compressed/uploads/Woodbury_Samples_TestColours_0001.jpg');">
 	
 </section>
 <section class="inner-intro section-4">
@@ -67,14 +67,14 @@
 		</div>
 		<div class="one-third">
 			<ul class="process">
-				<li>Discovery</li>
-				<li>Scoping</li>
-				<li>Engagement</li>
-				<li>Advice Preperation</li>
-				<li>Advice Presentation</li>
-				<li>Implementation</li>
-				<li>Follow up</li>
-				<li>Review</li>
+				<li class="fade-in">Discovery</li>
+				<li class="fade-in">Scoping</li>
+				<li class="fade-in">Engagement</li>
+				<li class="fade-in">Advice Preperation</li>
+				<li class="fade-in">Advice Presentation</li>
+				<li class="fade-in">Implementation</li>
+				<li class="fade-in">Follow up</li>
+				<li class="fade-in">Review</li>
 			</ul>
 		</div>
 	</div>
@@ -82,28 +82,28 @@
 
 <section class="section-4 team">
 	<div class="container">
-		<div class="col-2">
+		<div class="col-2 fade-in">
 			<div class="member" style="background-image: url('compressed/uploads/Woodbury_Samples_TestColours_0036.jpg');">
 				
 			</div>
 			<h5>Errol Woodbury</h5>
 			<h4>CEO, Senior Advisor</h4>
 		</div>
-		<div class="col-2">
+		<div class="col-2 fade-in">
 			<div class="member" style="background-image: url('compressed/uploads/Woodbury_Samples_TestColours_0036.jpg');">
 				
 			</div>
 			<h5>Errol Woodbury</h5>
 			<h4>CEO, Senior Advisor</h4>
 		</div>
-		<div class="col-2">
+		<div class="col-2 fade-in">
 			<div class="member" style="background-image: url('compressed/uploads/Woodbury_Samples_TestColours_0036.jpg');">
 				
 			</div>
 			<h5>Errol Woodbury</h5>
 			<h4>CEO, Senior Advisor</h4>
 		</div>
-		<div class="col-2">
+		<div class="col-2 fade-in">
 			<div class="member" style="background-image: url('compressed/uploads/Woodbury_Samples_TestColours_0036.jpg');">
 				
 			</div>
@@ -113,14 +113,14 @@
 
 		<!-- Departments -->
 		<h3 class="row department">Support Staff</h3>
-		<div class="col-2">
+		<div class="col-2 fade-in">
 			<div class="member" style="background-image: url('compressed/uploads/Woodbury_Samples_TestColours_0036.jpg');">
 				
 			</div>
 			<h5>Errol Woodbury</h5>
 			<h4>CEO, Senior Advisor</h4>
 		</div>
-		<div class="col-2">
+		<div class="col-2 fade-in">
 			<div class="member" style="background-image: url('compressed/uploads/Woodbury_Samples_TestColours_0036.jpg');">
 				
 			</div>
@@ -163,12 +163,12 @@
 	</div>
 </section>
 
-<section class="section-3b">
+<section class="section-3b white-bg-2">
 	<div class="container">
-		<div class="col-2" style="background-image: url('compressed/uploads/Woodbury_Samples_TestColours_0007.jpg');">
+		<div class="col-2 fade-in" style="background-image: url('compressed/uploads/Woodbury_Samples_TestColours_0007.jpg');">
 			<!-- bg img -->
 		</div>
-		<div class="col-2 table">
+		<div class="col-2 table fade-in">
 			<div class="table-cell">
 				<blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore praesentium qui voluptate, optio quod doloribus corrupti.</blockquote>
 			<div class="quote-by">- KM, CFO F400 <span>Company</span></div>	
@@ -178,7 +178,7 @@
 	</div>
 </section>
 
-<section class="banner-4" style="background-image: url('compressed/uploads/Woodbury_Samples_TestColours_0013.jpg');">
+<section class="banner-4 parallax" style="background-image: url('compressed/uploads/Woodbury_Samples_TestColours_0013.jpg');">
 	<!-- banner-4 -->
 </section>
 
