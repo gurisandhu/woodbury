@@ -6,55 +6,66 @@
 <section class="inner-intro section-4 team">
 	<div class="edges">
 		<div class="container">
-			<h1>Advisors</h1>
+			<h1>Advisers</h1>
 			<p class="intro-text">
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos voluptas sit distinctio itaque, veritatis architecto consectetur minima id aperiam suscipit, placeat quaerat ipsam ut libero. Animi reiciendis id error fugiat?
 			</p>
 			<div class="col-2 fade-in">
-				<div class="member" style="background-image: url('compressed/uploads/Woodbury_Samples_TestColours_0036.jpg');">
+				<div class="member" style="background-image: url('compressed/uploads/Woodbury_Sept16_0193.jpg');">
 					
 				</div>
 				<h5>Errol Woodbury</h5>
-				<h4>CEO, Senior Advisor</h4>
+				<h4>CEO and Principal Adviser</h4>
 			</div>
 			<div class="col-2 fade-in">
-				<div class="member" style="background-image: url('compressed/uploads/Woodbury_Samples_TestColours_0036.jpg');">
+				<div class="member" style="background-image: url('compressed/uploads/Woodbury_Sept16_0113.jpg');">
 					
 				</div>
-				<h5>Errol Woodbury</h5>
-				<h4>CEO, Senior Advisor</h4>
+				<h5>Dominic Cogger</h5>
+				<h4>Senior Adviser</h4>
 			</div>
 			<div class="col-2 fade-in">
-				<div class="member" style="background-image: url('compressed/uploads/Woodbury_Samples_TestColours_0036.jpg');">
+				<div class="member" style="background-image: url('compressed/uploads/Woodbury_Sept16_0154.jpg');">
 					
 				</div>
-				<h5>Errol Woodbury</h5>
-				<h4>CEO, Senior Advisor</h4>
+				<h5>Lucas Clayton</h5>
+				<h4>Financial Adviser</h4>
 			</div>
-			<div class="col-2 fade-in">
-				<div class="member" style="background-image: url('compressed/uploads/Woodbury_Samples_TestColours_0036.jpg');">
-					
-				</div>
-				<h5>Errol Woodbury</h5>
-				<h4>CEO, Senior Advisor</h4>
-			</div>
+			
 
 			<!-- Departments -->
 			<h3 class="row department">Support Staff</h3>
-			<div class="col-2 fade-in">
-				<div class="member" style="background-image: url('compressed/uploads/Woodbury_Samples_TestColours_0036.jpg');">
-					
+			<section>
+				<div class="col-2 fade-in">
+					<div class="member" style="background-image: url('compressed/uploads/Woodbury_Sept16_0143.jpg');">
+						
+					</div>
+					<h5>Brendon Jones</h5>
+					<h4>Operations</h4>
 				</div>
-				<h5>Errol Woodbury</h5>
-				<h4>CEO, Senior Advisor</h4>
-			</div>
-			<div class="col-2 fade-in">
-				<div class="member" style="background-image: url('compressed/uploads/Woodbury_Samples_TestColours_0036.jpg');">
-					
+
+				<div class="col-2 fade-in">
+					<div class="member" style="background-image: url('compressed/uploads/Woodbury_Sept16_0128.jpg');">
+						
+					</div>
+					<h5>Dominic Aarsen</h5>
+					<h4>Client Service Manager</h4>
 				</div>
-				<h5>Errol Woodbury</h5>
-				<h4>CEO, Senior Advisor</h4>
-			</div>
+				<div class="col-2 fade-in">
+					<div class="member" style="background-image: url('compressed/uploads/Woodbury_Sept16_0167.jpg');">
+						
+					</div>
+					<h5>Helen King</h5>
+					<h4>Office / Personal Assistant</h4>
+				</div>
+				<div class="col-2 fade-in">
+					<div class="member" style="background-image: url('compressed/uploads/Woodbury_Sept16_0177.jpg');">
+						
+					</div>
+					<h5>Elizabeth Schouten</h5>
+					<h4>Administration Assistant</h4>
+				</div>
+			</section>
 		</div><!-- edges -->
 	</div>
 </section>

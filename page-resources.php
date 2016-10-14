@@ -12,9 +12,13 @@
 			</p>
 			<ul>
 				<li><a href="#">understanding Business Insurance</a></li>
-				<li><a href="#">understanding Business Insurance</a></li>
-				<li><a href="#">understanding Business Insurance</a></li>
-				<li><a href="#">understanding Business Insurance</a></li>
+				<li><a href="#">understanding Debt Management</a></li>
+				<li><a href="#">understanding Estate Planning</a></li>
+				<li><a href="#">understanding Gearing</a></li>
+				<li><a href="#">understanding Insurance</a></li>
+				<li><a href="#">understanding Investment Concepts</a></li>
+				<li><a href="#">understanding Retirement Income</a></li>
+				<li><a href="#">understanding Superannuation</a></li>
 			</ul>
 		</div><!-- edges -->		
 	</div>

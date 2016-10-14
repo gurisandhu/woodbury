@@ -8,8 +8,10 @@
 		<div class="container">
 			<h1>Contact</h1>
 			<p class="intro-text">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos voluptas sit distinctio itaque, veritatis architecto consectetur minima id aperiam suscipit, placeat quaerat ipsam ut libero. Animi reiciendis id error fugiat?
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae voluptatibus nisi reiciendis fugiat, neque, asperiores libero inventore? Eveniet modi laboriosam at mollitia nisi. Id a accusamus molestiae. Vel, sint deserunt.
 			</p>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos voluptas sit distinctio itaque, veritatis architecto consectetur minima id aperiam suscipit, placeat quaerat ipsam ut libero. Animi reiciendis id error fugiat? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolore quia repellendus expedita possimus quisquam placeat. Numquam libero quae tenetur, tempora deserunt veniam, eaque consequuntur, culpa, voluptatum recusandae voluptates nesciunt.</p>
 			<ul>
 				<li>Enquiry</li>
 				<li><a href="#">P&nbsp;+612 9869 1933</a></li>
@@ -18,14 +20,18 @@
 			</ul>
 			<ul>
 				<li>Client Rooms</li>
-				<li><a href="#">Nab house</a></li>
-				<li><a href="#">255 George Street Sydney NSW 2000</a></li>
+				<li><a href="#">Nab house
+							<br>255 George Street
+							<br>Sydney NSW 2000
+					</a></li>
 			</ul>
 
 			<ul>
 				<li>Head Office</li>
-				<li><a href="#">Pennant Hills Business Centre</a></li>
-				<li><a href="#">Suite 4, 380 Pennant Hills Road, Pennant Hills NSW 2120</a></li>
+				<li><a href="#">Pennant Hills Business Centre
+							<br>Suite 4, 380 Pennant Hills Road,
+							<br>Pennant Hills NSW 2120
+					</a></li>
 			</ul>
 		</div><!-- edges -->	
 	</div><!-- container -->

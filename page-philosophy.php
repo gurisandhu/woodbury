@@ -3,7 +3,7 @@
 <section class="inner-banner parallax" style="background-image: url('compressed/uploads/Woodbury_Samples_TestColours_0001.jpg');">
 	
 </section>
-<section class="inner-intro section-4">
+<section class="inner-intro section-4 section-4a">
 	<div class="edges">
 		<div class="container">
 			<h1>Philosophy</h1>

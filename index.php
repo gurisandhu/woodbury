@@ -10,7 +10,12 @@
 					</div>
 				</section>
 				<section class="swiper-slide">
-					<div class="front-page-intro table" style="background-image: url('compressed/uploads/Woodbury_Samples_TestColours_0001.jpg');">
+					<div class="front-page-intro table" style="background-image: url('compressed/uploads/Woodbury_Samples_TestColours_0021.jpg');">
+						
+					</div>
+				</section>
+				<section class="swiper-slide">
+					<div class="front-page-intro table" style="background-image: url('compressed/uploads/Woodbury_Samples_TestColours_0007.jpg');">
 						
 					</div>
 				</section>
