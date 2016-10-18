@@ -1,4 +1,4 @@
-	<footer>
+	<footer class="section">
 		<div class="container">
 			<div class="col-2">
 				<ul>

@@ -1,6 +1,6 @@
 <?php include 'header.php'; ?>
 
-<section class="slider-parallax-container">
+<section class="slider-parallax-container scroll-1 section">
 	<section class="slider-parallax">
 		<div class="front-page-banner swiper-container">
 			<div class="swiper-wrapper">
@@ -34,7 +34,7 @@
 	</section>
 </section>
 
-<section class="section-2 common-section white-bg">
+<section class="section-2 common-section white-bg scroll-2 section">
 	<div class="container">
 		<div class="initial"><img src="compressed/uploads/creme_w_logo.svg" alt=""></div>
 		<h2>Legacy</h2>
@@ -56,7 +56,7 @@
 	</div>
 </section>
 
-<section class="section-4 common-section white-bg">
+<section class="section-4 common-section white-bg scroll-3 section">
 	<div class="container">
 		<div class="initial"><img src="compressed/uploads/creme_w_logo.svg" alt=""></div>
 		<h2>Strategic</h2>
@@ -70,7 +70,7 @@
 
 
 
-<section class="section-5 common-section">
+<section class="section-5 common-section scroll-4 section">
 	<div class="container">
 		<div class="initial"><img src="compressed/uploads/creme_w_logo.svg" alt=""></div>
 		<h2>Intentional</h2>
@@ -86,7 +86,7 @@
 	<!-- banner-2 -->
 </section>
 
-<section class="section-2 common-section white-bg">
+<section class="section-2 common-section white-bg scroll-5 section">
 	<div class="container">
 		<div class="initial"><img src="compressed/uploads/creme_w_logo.svg" alt=""></div>
 		<h2>Personal</h2>
@@ -115,5 +115,10 @@
 
 <?php include 'lets-talk.php'; ?>
 
+<div class="scroll-down-wrapper">
+	<div class="scroll-down">
+	<!-- Scroll more button on home page -->
+	</div>
+</div>
 	
 <?php include 'footer.php'; ?>
