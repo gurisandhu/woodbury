@@ -60,8 +60,16 @@ h1{
 	line-height: 1.2;
 	letter-spacing: 11px;
 	text-transform: uppercase;
-	span{
-		border-bottom: 2px solid;
+	position: relative;
+	&:after{
+		content: "";
+		position: absolute;
+		background-color: $creme;
+		width: 170px;
+	    height: 3px;
+	    background-color: #ccb9a7;
+	    bottom: 0;
+	    left: 42%;
 	}
 }
 h2{

@@ -131,7 +131,7 @@ $(document).ready(function(){
   });//.section each
 
 
-  var subFooter = $('.sub-footer').offset().top - 600;
+  // var subFooter = $('.sub-footer').offset().top - 600;
   $(window).scroll(function(){
     if($(this).scrollTop() > 300){
       $('.scroll-down-wrapper').addClass('hide');

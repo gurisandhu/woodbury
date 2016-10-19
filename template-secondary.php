@@ -1,6 +1,12 @@
-<?php include 'header.php'; ?>
+<?php 
+/*
+*	Template Name: Secondary
+*/
 
-<section class="inner-banner parallax" style="background-image: url('compressed/uploads/Woodbury_Samples_TestColours_0001.jpg');">
+get_header();
+ ?>
+
+<section class="inner-banner parallax" style="background-image: url('<?php bloginfo('template_url'); ?>/compressed/uploads/Woodbury_Samples_TestColours_0001.jpg');">
 	
 </section>
 <section class="inner-intro section-4 section-4a">
@@ -83,28 +89,28 @@
 <section class="section-4 team">
 	<div class="container">
 		<div class="col-2 fade-in">
-			<div class="member" style="background-image: url('compressed/uploads/Woodbury_Samples_TestColours_0036.jpg');">
+			<div class="member" style="background-image: url('<?php bloginfo('template_url'); ?>/compressed/uploads/Woodbury_Samples_TestColours_0036.jpg');">
 				
 			</div>
 			<h5>Errol Woodbury</h5>
 			<h4>CEO, Senior Advisor</h4>
 		</div>
 		<div class="col-2 fade-in">
-			<div class="member" style="background-image: url('compressed/uploads/Woodbury_Samples_TestColours_0036.jpg');">
+			<div class="member" style="background-image: url('<?php bloginfo('template_url'); ?>/compressed/uploads/Woodbury_Samples_TestColours_0036.jpg');">
 				
 			</div>
 			<h5>Errol Woodbury</h5>
 			<h4>CEO, Senior Advisor</h4>
 		</div>
 		<div class="col-2 fade-in">
-			<div class="member" style="background-image: url('compressed/uploads/Woodbury_Samples_TestColours_0036.jpg');">
+			<div class="member" style="background-image: url('<?php bloginfo('template_url'); ?>/compressed/uploads/Woodbury_Samples_TestColours_0036.jpg');">
 				
 			</div>
 			<h5>Errol Woodbury</h5>
 			<h4>CEO, Senior Advisor</h4>
 		</div>
 		<div class="col-2 fade-in">
-			<div class="member" style="background-image: url('compressed/uploads/Woodbury_Samples_TestColours_0036.jpg');">
+			<div class="member" style="background-image: url('<?php bloginfo('template_url'); ?>/compressed/uploads/Woodbury_Samples_TestColours_0036.jpg');">
 				
 			</div>
 			<h5>Errol Woodbury</h5>
@@ -114,14 +120,14 @@
 		<!-- Departments -->
 		<h3 class="row department">Support Staff</h3>
 		<div class="col-2 fade-in">
-			<div class="member" style="background-image: url('compressed/uploads/Woodbury_Samples_TestColours_0036.jpg');">
+			<div class="member" style="background-image: url('<?php bloginfo('template_url'); ?>/compressed/uploads/Woodbury_Samples_TestColours_0036.jpg');">
 				
 			</div>
 			<h5>Errol Woodbury</h5>
 			<h4>CEO, Senior Advisor</h4>
 		</div>
 		<div class="col-2 fade-in">
-			<div class="member" style="background-image: url('compressed/uploads/Woodbury_Samples_TestColours_0036.jpg');">
+			<div class="member" style="background-image: url('<?php bloginfo('template_url'); ?>/compressed/uploads/Woodbury_Samples_TestColours_0036.jpg');">
 				
 			</div>
 			<h5>Errol Woodbury</h5>
@@ -165,7 +171,7 @@
 
 <section class="section-3b white-bg-2">
 	<div class="container">
-		<div class="col-2 fade-in" style="background-image: url('compressed/uploads/Woodbury_Samples_TestColours_0007.jpg');">
+		<div class="col-2 fade-in" style="background-image: url('<?php bloginfo('template_url'); ?>/compressed/uploads/Woodbury_Samples_TestColours_0007.jpg');">
 			<!-- bg img -->
 		</div>
 		<div class="col-2 table fade-in">
@@ -178,9 +184,11 @@
 	</div>
 </section>
 
-<section class="banner-4 parallax" style="background-image: url('compressed/uploads/Woodbury_Samples_TestColours_0013.jpg');">
+<section class="banner-4 parallax" style="background-image: url('<?php bloginfo('template_url'); ?>/compressed/uploads/Woodbury_Samples_TestColours_0013.jpg');">
 	<!-- banner-4 -->
 </section>
 
-<?php include 'lets-talk.php'; ?>
-<?php include 'footer.php'; ?>
+<?php include (TEMPLATEPATH . '/lets-talk.php'); ?>
+
+
+<?php get_footer(); ?>

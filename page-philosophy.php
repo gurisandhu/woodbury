@@ -1,6 +1,6 @@
 <?php include 'header.php'; ?>
 
-<section class="inner-banner parallax" style="background-image: url('compressed/uploads/Woodbury_Samples_TestColours_0001.jpg');">
+<section class="inner-banner parallax" style="background-image: url('<?php bloginfo('template_url'); ?>/compressed/uploads/Woodbury_Samples_TestColours_0001.jpg');">
 	
 </section>
 <section class="inner-intro section-4 section-4a">
@@ -22,7 +22,7 @@
 
 <section class="section-3b white-bg-2">
 	<div class="container">
-		<div class="col-2 fade-in" style="background-image: url('compressed/uploads/Woodbury_Samples_TestColours_0007.jpg');">
+		<div class="col-2 fade-in" style="background-image: url('<?php bloginfo('template_url'); ?>/compressed/uploads/Woodbury_Samples_TestColours_0007.jpg');">
 			<!-- bg img -->
 		</div>
 		<div class="col-2 table fade-in">
@@ -35,7 +35,7 @@
 	</div>
 </section>
 
-<section class="banner-4 parallax" style="background-image: url('compressed/uploads/Woodbury_Samples_TestColours_0013.jpg');">
+<section class="banner-4 parallax" style="background-image: url('<?php bloginfo('template_url'); ?>/compressed/uploads/Woodbury_Samples_TestColours_0013.jpg');">
 	<!-- banner-4 -->
 </section>
 
