@@ -2,7 +2,7 @@
 	<div class="table-cell">
 		<div class="container">
 			<div class="talk">
-				<a href="#">Let's Talk <i class="fa fa-angle-right"></i></a>
+				<a href="/contact/">Let's Talk <i class="fa fa-angle-right"></i></a>
 			</div>
 		</div>
 	</div>

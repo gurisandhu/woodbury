@@ -295,9 +295,6 @@ header{
 	}
 	li{
 		margin-bottom: 4%;
-		&:last-child{
-			margin-bottom: 0;
-		}
 	}
 	a{
 		font-size: 16.5px;
@@ -307,6 +304,13 @@ header{
 				border-color: $creme;
 			}
 		}
+	}
+	.menu-header-right-menu-container{
+		li{
+			&:last-child{
+				margin-bottom: 0;
+			}
+		}	
 	}
 }
 .menu-button{
@@ -783,6 +787,7 @@ h3{
 	float: left;
 	li{
 		color: $violet;
+		opacity: 0;
 		text-transform: uppercase;
 		font-weight: 600;
 		font-size: 20px;

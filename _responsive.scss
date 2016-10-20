@@ -41,6 +41,9 @@
 	.inner-banner{
 		background-position: center -83px;
 	}
+	.scroll-down-wrapper{
+		left: 39.3%;
+	}
 }//1300
 @media screen and (max-width: 1160px){
 	body{
@@ -129,6 +132,11 @@
 	}
 	.two-third{
 		padding-right: 7%;
+	}
+	h1{
+		&:after{
+			left: 40%;
+		}
 	}
 }//1160
 @media screen and (max-width: 950px){
@@ -342,6 +350,14 @@
 		width: 100%;
 		text-align: center;
 	}
+	.scroll-down-wrapper{
+		left: 26.8%;
+	}
+	h1{
+		&:after{
+			left: 29%;
+		}
+	}
 }//780
 @media screen and (max-width: 600px){
 	body{
@@ -450,6 +466,17 @@
 	.responsive-menu{
 		a{
 			font-size: 22px;
+		}
+	}
+	.scroll-down-wrapper {
+	    left: 18.3%;
+	}
+	h1{
+		&:after{
+			left: 8%;
+			width: 156px;
+			bottom: -7px;
+			height: 2px;
 		}
 	}
 }//600
@@ -570,5 +597,8 @@
 	}
 	.contact li:not(:first-child){
 		font-size: 14px;
+	}
+	.scroll-down-wrapper {
+	    left: 5.3%;
 	}
 }//400

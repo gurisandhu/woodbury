@@ -4,12 +4,6 @@
 				<nav>
 					<?php wp_nav_menu( array( 'theme_location' => 'footer-menu')); ?>
 				</nav>
-				<!-- <ul>
-					<li><a href="#">Privacy</a></li>
-					<li><a href="#">Terms</a></li>
-					<li><a href="#">FSG</a></li>
-					<li><a href="#">Disclaimer</a></li>
-				</ul> -->
 			</div>
 			<div class="col-2">
 				<ul>

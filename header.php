@@ -56,14 +56,10 @@
 					<nav>
 						<div class="table">
 							<div class="table-cell">
-								<ul class="row">
-									<li><a href="page-philosophy.php">Philosophy</a></li>
-									<li><a href="page-services.php">Services</a></li>
-									<li><a href="page-process.php">Process</a></li>
-									<li><a href="page-advisers.php">Advisers</a></li>
-									<li><a href="page-resources.php">Resources</a></li>
-									<li><a href="page-contact.php">Contact</a></li>
-								</ul>
+								<div class="row">
+									<?php wp_nav_menu( array( 'theme_location' => 'header-menu-left')); ?>
+									<?php wp_nav_menu( array( 'theme_location' => 'header-menu-right')); ?>
+								</div>
 							</div>
 						</div>
 					</nav>

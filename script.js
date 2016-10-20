@@ -84,6 +84,9 @@ $(document).ready(function(){
     });//Parallax each
 
     // fade in
+    $('.process li').each(function(){
+      $(this).addClass('fade-in');
+    });//process li
     $('.fade-in').each(function(){
     	var thisEle		= 	$(this);
     	var topPos 		= 	thisEle.offset().top;
@@ -109,14 +112,14 @@ $(document).ready(function(){
     var goToThis = thisEle.next('.section').offset().top;
     
 
-    // $(window).scroll(function(){
-    //   thisElePos = thisEle.offset().top;
-    //   currentScroll = $(window).scrollTop();
+    $(window).scroll(function(){
+      thisElePos = thisEle.offset().top;
+      currentScroll = $(window).scrollTop();
       
-    //   if (currentScroll > thisElePos){
-    //     goToThis = thisEle.next('.section').offset().top;
-    //   }//if
-    // });//window.scroll
+      if (currentScroll > thisElePos){
+        goToThis = thisEle.next('.section').offset().top;
+      }//if
+    });//window.scroll
 
     
 
