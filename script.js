@@ -45,14 +45,14 @@ $(document).ready(function(){
   	// ++++++++++++++++++++
 	// Parallax
 	// ++++++++++++++++++++
-	var bodyHeight      = $('body').height();
+	// var bodyHeight      = $('body').height();
     var clientHeight    = $(window).innerHeight();
 
     // Slider parallax
     $('.slider-parallax').each(function(){
       var slider = $(this);
-      var topPos = slider.offset().top;
-      var eleHeight = slider.height();
+      // var topPos = slider.offset().top;
+      // var eleHeight = slider.height();
 
       $(window).scroll(function(){
         var scrolledHeight = $(window).scrollTop();
@@ -105,36 +105,14 @@ $(document).ready(function(){
     $(this).toggleClass('animate');
   });//scroll-down hover
 
-  $('.section').each(function(){
-    var thisEle = $(this);
-    var thisElePos;
-    var currentScroll;
-    var goToThis = thisEle.next('.section').offset().top;
-    
-
-    $(window).scroll(function(){
-      thisElePos = thisEle.offset().top;
-      currentScroll = $(window).scrollTop();
-      
-      if (currentScroll > thisElePos){
-        goToThis = thisEle.next('.section').offset().top;
-      }//if
-    });//window.scroll
-
-    
-
-    $('.scroll-down-wrapper').click(function(){
+   $('.scroll-down-wrapper').click(function(){
         $("html, body").animate({
-          scrollTop: goToThis
-        }, 1000);
-      // $(this).addClass('hide');
+          scrollTop: $(".section").next().offset().top;
+        }, 1000);  
+         $(this).addClass('hide');
+         alert('test');
     });//scroll-down-wrapper click
-    
-      return false;
-  });//.section each
 
-
-  // var subFooter = $('.sub-footer').offset().top - 600;
   $(window).scroll(function(){
     if($(this).scrollTop() > 300){
       $('.scroll-down-wrapper').addClass('hide');

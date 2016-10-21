@@ -1,7 +1,7 @@
 @media screen and (max-width: 1320px){
-	body{
-		background-color: red;
-	}
+	// body{
+	// 	background-color: red;
+	// }
 	.inner-intro{
 		h1{
 			&:after{
@@ -46,9 +46,9 @@
 	}
 }//1300
 @media screen and (max-width: 1160px){
-	body{
-		background-color: blue;
-	}
+	// body{
+	// 	background-color: blue;
+	// }
 	h2{
 		&:after{
 			left: 44.4%;
@@ -140,9 +140,9 @@
 	}
 }//1160
 @media screen and (max-width: 950px){
-	body{
-		background-color: yellow;
-	}
+	// body{
+	// 	background-color: yellow;
+	// }
 	.logo{
 		img{
 			&:nth-of-type(1){
@@ -154,7 +154,6 @@
 		}
 	}
 	.home-banner{
-		// height: 533px;
 		h1{
 			width: 250px;
 			margin: auto;
@@ -221,9 +220,9 @@
 }//782 wp admin menu
 
 @media screen and (max-width: 780px){
-	body{
-		background-color: green;
-	}
+	// body{
+	// 	background-color: green;
+	// }
 	.logo{
 		img{
 			&:nth-of-type(1){
@@ -275,9 +274,6 @@
 	.common-section{
 		padding-top: 8%;
 		padding-bottom: 8%;
-	}
-	.home-banner{
-		// padding-top: 14%;
 	}
 	.banner-2{
 		height: 230px;
@@ -358,11 +354,38 @@
 			left: 29%;
 		}
 	}
+	.team{
+		.col-2{
+			margin-bottom: 15%;		
+		}
+	}
+	.section-4{
+		.container{
+			padding-left: 5%;
+			padding-top: 8%;
+			padding-right: 5%;
+			padding-bottom: 8%;
+		}
+		.col-2{
+			width: 100%;
+			&:nth-of-type(2n+2){
+				margin-left: 0;
+			}
+			&:nth-last-of-type(2){
+				margin-bottom: 30px;
+			}
+		}
+	}
+	.customize-support{
+		header.fixed{
+			top: 46px;	
+		}
+	}
 }//780
 @media screen and (max-width: 600px){
-	body{
-		background-color: pink;
-	}
+	// body{
+	// 	background-color: pink;
+	// }
 	.logo{
 		height: 36px;
 		img{
@@ -438,31 +461,6 @@
 			}
 		}	
 	}
-	.section-4{
-		.container{
-			padding-left: 5%;
-			padding-top: 8%;
-			padding-right: 5%;
-			padding-bottom: 8%;
-		}
-		.col-2{
-			width: 100%;
-			&:nth-of-type(2n+2){
-				margin-left: 0;
-			}
-			&:nth-last-of-type(2){
-				margin-bottom: 30px;
-			}
-		}
-	}
-	
-	.team{
-		.col-2{
-			&:not(:nth-child(-n+2)){
-				margin-top: 0;
-			}
-		}
-	}
 	.responsive-menu{
 		a{
 			font-size: 22px;
@@ -479,11 +477,16 @@
 			height: 2px;
 		}
 	}
+	.customize-support{
+		header.fixed{
+			top: 0;	
+		}
+	}
 }//600
 @media screen and (max-width: 400px){
-	body{
-		background-color: brown;
-	}
+	// body{
+	// 	background-color: brown;
+	// }
 	.inner-intro{
 		h1{
 			font-size: 25px;
@@ -521,10 +524,6 @@
 	}
 	.logo{
 		height: 30px;
-	}
-	.home-banner{
-		// -ms-background-position-x: 60%;
-		//     background-position-x: 60%;
 	}
 	h2{
 		letter-spacing: 2px;

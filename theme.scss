@@ -31,6 +31,62 @@ body{
   font-size: 14px;
   font-family: $pro;
 }
+body, .parallax, .front-page-intro{
+	-webkit-animation: smooth 2s;
+     -moz-animation: smooth 2s;
+       -o-animation: smooth 2s;
+          animation: smooth 2s;
+}
+@-webkit-keyframes smooth{
+	from {
+		opacity: 0;
+		-webkit-transition: all .3s ease;
+		   -moz-transition: all .3s ease;
+		    -ms-transition: all .3s ease;
+		     -o-transition: all .3s ease;
+		        transition: all .3s ease;
+		background-color: rgba(232, 224, 215, 0.5);
+	}
+	to {
+		opacity: 1;
+		background-color: rgba(232, 224, 215, 0);
+		-webkit-transition: all 0s ease;
+		   -moz-transition: all 0s ease;
+		    -ms-transition: all 0s ease;
+		     -o-transition: all 0s ease;
+		        transition: all 0s ease;
+	}
+}
+@-moz-keyframes smooth{
+	from {
+		opacity: 0;
+		background-color: rgba(232, 224, 215, 0.5);
+	}
+	to {
+		opacity: 1;
+		background-color: rgba(232, 224, 215, 0);
+	}
+}
+@-o-keyframes smooth{
+	from {
+		opacity: 0;
+		background-color: rgba(232, 224, 215, 0.5);
+	}
+	to {
+		opacity: 1;
+		background-color: rgba(232, 224, 215, 0);
+	}
+}
+@keyframes smooth{
+	from {
+		opacity: 0;
+		background-color: rgba(232, 224, 215, 0.5);
+	}
+	to {
+		opacity: 1;
+		background-color: rgba(232, 224, 215, 0);
+	}
+}
 .container{
 	max-width: 1214px;//1140px
 }
@@ -825,9 +881,6 @@ h3{
 .team{
 	text-align: center;
 	.col-2{
-		&:not(:nth-child(-n+2)){
-			margin-top: 40px;
-		}
 		width: 48%;
 		&:nth-of-type(2n+2){
 			margin-left: 4%;
@@ -835,7 +888,7 @@ h3{
 		&:nth-of-type(2n+3){
 			clear: left;
 		}
-		margin-bottom: 4%;
+		margin-bottom: 8%;
 		&:nth-last-of-type(2), &:nth-last-of-type(1){
 			margin-bottom: 0;
 		}

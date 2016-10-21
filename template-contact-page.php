@@ -43,8 +43,6 @@ get_header();
 </section>
 
 <?php include (TEMPLATEPATH . '/bottom-section.php'); ?>
-
-<?php include (TEMPLATEPATH . '/lets-talk.php'); ?>
 	
 
 <?php get_footer(); ?>
