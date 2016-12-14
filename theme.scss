@@ -32,8 +32,8 @@ body{
   font-family: $pro;
 }
 body, .parallax, .front-page-intro{
-	-webkit-animation: smooth 2s;
-     -moz-animation: smooth 2s;
+-webkit-animation: smooth 2s;
+	 -moz-animation: smooth 2s;
        -o-animation: smooth 2s;
           animation: smooth 2s;
 }
@@ -202,8 +202,10 @@ header{
 		list-style: none;
 		margin: 0;
 		padding: 0;
+		text-align: inherit;
 		li{
 			width: auto;
+			margin-bottom: inherit;
 		}
 	}
 	nav{
@@ -219,7 +221,7 @@ header{
 			&:hover{
 				text-decoration: none;
 				&:after{
-					width: 70px;
+					width: 70%;
 				}
 			}
 			&:after{
@@ -245,6 +247,15 @@ header{
 					text-align: right;	
 				}
 			}		
+		}
+	}
+}
+ul{
+	text-align: left;
+	li{
+		margin-bottom: 15px;
+		&:last-of-type{
+			margin-bottom: 0;
 		}
 	}
 }
@@ -306,6 +317,15 @@ header{
 			&:last-child{
 				padding-right: 0;
 			}
+			&.current_page_item{
+				a{
+					color: $violet;
+					&:after{
+						border-color: $violet;
+						width: 70%;
+					}
+				}
+			}
 		}
 		ul{
 			width: auto;
@@ -329,6 +349,7 @@ header{
 			color: $violet;
 			&:after{
 				border-color: $violet;
+				width: 70%;
 			}
 		}
 	}
@@ -461,7 +482,7 @@ header{
 }
 .parallax{
 	background-attachment: fixed;
-	@include transition(.1);
+	// @include transition(.1);
 }
 // Banners
 
@@ -523,7 +544,7 @@ header{
 	.col-2{
 		background-color: $violet;
 		color: white;
-		min-height: 390px;
+		height: 390px;
 		float: right;
 		&:last-child{
 			padding: 0 79px;
@@ -549,10 +570,16 @@ header{
 	}
 }
 .section-3b{
+	&:after{
+		content: "";
+		display: block;
+		clear: both;
+	}
 	.col-2{
 		background-color: $violet;
 		color: white;
 		min-height: 390px;
+		height: 390px;
 		float: right;
 		&:last-child{
 			padding: 0 79px;
@@ -573,7 +600,8 @@ header{
 		padding-right: 2%;
 		position: relative;
 		z-index: 1;
-		margin-bottom: -78px;
+		top: 78px;
+		// margin-bottom: -78px;
 	}
 }
 .section-3c{
@@ -694,6 +722,7 @@ footer{
 		line-height: 1;
 		padding-right: 10px;
 		margin-right: 10px;
+		margin-bottom: inherit;
 		&:last-child{
 			padding-right: 0;
 			margin-right: 0;
@@ -951,6 +980,7 @@ h5{
 			float: left;
 			width: 100%;
 			border-bottom: 2px solid $creme;
+			margin-bottom: inherit;
 			&:first-child{
 				border-top: 2px solid $creme;
 			}
@@ -1018,6 +1048,7 @@ h5{
 		list-style: none;
 		display: block;
 		width: 100%;
+		text-align: center;
 		&:after{
 			content: "";
 			display: block;
@@ -1028,6 +1059,7 @@ h5{
 		}
 	}
 	li{
+		margin-bottom: 0;
 		text-transform: uppercase;
 		letter-spacing: 1px;
 		&:first-child{
@@ -1108,7 +1140,7 @@ h5{
 	height: 60px;
 	z-index: 20;
 	position: relative;
-	left: 35%;
+	left: 39.1%;
 	cursor: pointer;
 	@include transition(.3);
 	background-color: rgba(204, 185, 167, 0.33);
@@ -1156,6 +1188,59 @@ h5{
 		bottom: 0px; 
 		opacity: 1;
 		}
+}
+.show-loader{
+	position: relative;
+	&:after{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background: $creme; /* Old browsers */
+		background: -moz-linear-gradient(top,  $creme 0%, $creme 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top,  $creme 0%,$creme 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom,  $creme 0%,$creme 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$creme', endColorstr='$creme',GradientType=0 ); /* IE6-9 */
+		-webkit-box-shadow: none;
+		        box-shadow: none;
+		z-index: 6;
+		content: "";
+	}
+	&:before{
+		content: "";
+		width: 150px;
+	    height: 150px;
+	    border: 1px solid $violet;
+	    border-top: 1px solid transparent;
+		-webkit-border-radius: 50%;
+		        border-radius: 50%;
+		display: block;
+		color: white;
+		position: absolute;
+		top: 50%;
+		font-size: 55px;
+		left: 45%;
+		z-index: 7;
+	-webkit-animation: fa-spin .6s infinite linear;
+	   -moz-animation: fa-spin .6s infinite linear;
+	     -o-animation: fa-spin .6s infinite linear;
+	        animation: fa-spin .6s infinite linear;
+	}
+	&.hide{
+		&:after,&:before{
+			content: none;
+		}
+	}
+}
+.inner-banner{
+	&.show-loader{
+		&:before{
+			top: 23%;	
+		}
+	}
 }
 //This file link includes resonsive style and it MUST always stays at the bottom of this file. If you need to type code, please type above to this link. Don't type below of responsive file link.
 @import 'responsive';

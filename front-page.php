@@ -7,7 +7,7 @@ get_header(); ?>
 <?php $front_banners = get_field('front_top_banners'); ?>
 <?php if($front_banners): ?>
 	<section class="slider-parallax-container scroll-1 section">
-		<section class="slider-parallax">
+		<section class="slider-parallax show-loader">
 			<div class="front-page-banner swiper-container">
 				<div class="swiper-wrapper">
 					<?php foreach($front_banners as $banner): ?>
