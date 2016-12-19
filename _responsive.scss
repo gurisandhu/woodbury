@@ -41,9 +41,6 @@
 	.inner-banner{
 		background-position: center -83px;
 	}
-	.scroll-down-wrapper{
-		left: 39.3%;
-	}
 }//1300
 @media screen and (max-width: 1160px){
 	// body{
@@ -347,7 +344,7 @@
 		text-align: center;
 	}
 	.scroll-down-wrapper{
-		left: 26.8%;
+		left: 46%;
 	}
 	h1{
 		&:after{
@@ -379,6 +376,14 @@
 	.customize-support{
 		header.fixed{
 			top: 46px;	
+		}
+	}
+	.show-loader{
+		&:before{
+			width: 50px;
+			height: 50px;
+			top: 45%;
+			left: 44%;
 		}
 	}
 }//780
@@ -467,7 +472,7 @@
 		}
 	}
 	.scroll-down-wrapper {
-	    left: 18.3%;
+	    left: 43.1%;
 	}
 	h1{
 		&:after{
@@ -598,6 +603,6 @@
 		font-size: 14px;
 	}
 	.scroll-down-wrapper {
-	    left: 5.3%;
+	    left: 42.1%;
 	}
 }//400
