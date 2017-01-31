@@ -7,11 +7,11 @@ get_header(); ?>
 <?php $front_banners = get_field('front_top_banners'); ?>
 <?php if($front_banners): ?>
 	<section class="slider-parallax-container scroll-1 section">
-		<section class="slider-parallax">
+		<section class="slider-parallax show-loader">
 			<div class="front-page-banner swiper-container">
 				<div class="swiper-wrapper">
 					<?php foreach($front_banners as $banner): ?>
-						<section class="swiper-slide show-loader">
+						<section class="swiper-slide">
 							<div class="front-page-intro table" style="background-image: url('<?php echo $banner['url']; ?>');">
 								
 							</div>
@@ -70,7 +70,7 @@ get_header(); ?>
 
 <?php if(get_field('section_with_full_image_title')): ?>
 <section class="section-4 common-section white-bg scroll-3 section">
-	<div class="container">
+	<div class="container" style="padding-left: 0px !important; padding-right: 0px !important;">
 		<div class="initial"><img src="<?php echo esc_url( home_url('')); ?>/wp-content/uploads/creme_w_logo.svg" alt=""></div>
 		<h2><?php the_field('section_with_full_image_title'); ?></h2>
 		<?php the_field('section_with_full_image_text'); ?>

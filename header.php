@@ -36,11 +36,6 @@
 					</div>
 					<div class="col-3">
 						<nav>
-							<!-- <ul>
-								<li><a href="page-advisers.php">Advisers</a></li>
-								<li><a href="page-resources.php">Resources</a></li>
-								<li><a href="page-contact.php">Contact</a></li>
-							</ul> -->
 							<?php wp_nav_menu(array('theme_location' => 'header-menu-right')); ?>
 						</nav>
 					</div>
