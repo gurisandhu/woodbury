@@ -76,7 +76,7 @@ get_header(); ?>
 		<?php the_field('section_with_full_image_text'); ?>
 	</div>
 </section>
-<section class="banner-2 parallax" style="background-image: url('<?php echo get_field('section_with_full_image_image'); ?>');">
+<section class="banner-2" style="background-image: url('<?php echo get_field('section_with_full_image_image'); ?>');">
 		<!-- banner-2 -->
 </section>
 <?php endif; ?>
@@ -121,7 +121,7 @@ get_header(); ?>
 </section>
 <?php endif; ?>
 
-<section class="banner-3 parallax" style="background-image: url('<?php echo get_field('front_bottom_image_image'); ?>');">
+<section class="banner-3" style="background-image: url('<?php echo get_field('front_bottom_image_image'); ?>');">
 	<!-- banner-3 -->
 </section>
 

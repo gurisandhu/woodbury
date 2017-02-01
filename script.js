@@ -57,31 +57,31 @@ $(document).ready(function(){
       $(window).scroll(function(){
         var scrolledHeight = $(window).scrollTop();
         slider.css({
-          transform: 'translateY('+(-scrolledHeight/8)+'px)',
-          MozTransform: 'translateY('+(-scrolledHeight/8)+'px)',
-          WebkitTransform: 'translateY('+(-scrolledHeight/8)+'px)',
-          msTransform: 'translateY('+ (-scrolledHeight/8)+'px)'
+          transform: 'translateY('+(scrolledHeight/8)+'px)',
+          MozTransform: 'translateY('+(scrolledHeight/8)+'px)',
+          WebkitTransform: 'translateY('+(scrolledHeight/8)+'px)',
+          msTransform: 'translateY('+ (scrolledHeight/8)+'px)'
         });
       });
     });//slider parallax each
 
-    // Parallax
-    $('.parallax').each(function(){
-      var thisEle     =   $(this);
-      var topPos      =   thisEle.offset().top;
-      var eleHeight   =   thisEle.height();
-      var thisPos     =   thisEle.css('background-position').split(" ");
-      thisPos         =   parseInt(thisPos[1]);
-      $(window).scroll(function(){
-        var scrolledHeight  = $(window).scrollTop() + clientHeight/1.1;
+    // // Parallax
+    // $('.parallax').each(function(){
+    //   var thisEle     =   $(this);
+    //   var topPos      =   thisEle.offset().top;
+    //   var eleHeight   =   thisEle.height();
+    //   var thisPos     =   thisEle.css('background-position').split(" ");
+    //   thisPos         =   parseInt(thisPos[1]);
+    //   $(window).scroll(function(){
+    //     var scrolledHeight  = $(window).scrollTop() + clientHeight/1.1;
 
-        if(scrolledHeight > topPos){
-          resetScroll = (topPos) - ($(window).scrollTop());
-          var newPos  =   thisPos + (resetScroll/8);
-          thisEle.css('background-position', 'center ' + newPos+'px');
-        }
-      });//window scroll
-    });//Parallax each
+    //     if(scrolledHeight > topPos){
+    //       resetScroll = (topPos) - ($(window).scrollTop());
+    //       var newPos  =   thisPos + (resetScroll/8);
+    //       thisEle.css('background-position', 'center ' + newPos+'px');
+    //     }
+    //   });//window scroll
+    // });//Parallax each
 
     // fade in
     $('.process li').each(function(){

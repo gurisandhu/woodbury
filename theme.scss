@@ -31,7 +31,7 @@ body{
   font-size: 14px;
   font-family: $pro;
 }
-body, .parallax, .front-page-intro{
+body{
 -webkit-animation: smooth 2s;
 	 -moz-animation: smooth 2s;
        -o-animation: smooth 2s;
@@ -495,6 +495,7 @@ ul{
 			color: white;
 			&:after{
 				border-color: $creme;
+				width: 45%;
 			}
 		}
 	}
@@ -597,7 +598,6 @@ ul{
 	            transition-duration: 50ms;
 }
 .parallax{
-	background-attachment: fixed;
 	// @include transition(.1);
 }
 // Banners
@@ -744,7 +744,7 @@ ul{
 	     -o-background-size: cover;
 	        background-size: cover;
 	    background-repeat: no-repeat;
-	    background-position: center 0;
+	    background-position: 50%;
 }
 .section-5{
 	background-color: $violet;
@@ -755,7 +755,7 @@ ul{
 }
 .banner-3{
 	height: 516px;
-	background-position: center 0;
+	background-position: 50%;
 	-webkit-background-size: cover;
 	     -o-background-size: cover;
 	        background-size: cover;
@@ -765,7 +765,7 @@ ul{
 	height: 516px;
 	position: relative;
 	z-index: 0;
-	background-position: center 0;
+	background-position: 50%;
 	-webkit-background-size: cover;
 	     -o-background-size: cover;
 	        background-size: cover;
@@ -773,7 +773,7 @@ ul{
 }
 .sub-footer{
 	height: 697px;
-	background-position: center 0;
+	background-position: 50%;
 	-webkit-background-size: cover;
 	     -o-background-size: cover;
 	        background-size: cover;
@@ -861,7 +861,7 @@ footer{
 	-webkit-background-size: cover;
 	     -o-background-size: cover;
 	        background-size: cover;
-	background-position: center -170px;
+	background-position:50%;
 	position: relative;
 	z-index: 0;
 	margin-bottom:  -439px;
@@ -1216,7 +1216,7 @@ h5{
 .scroll-down-wrapper{
 	position: fixed;
 	bottom: 0;
-	left: 42.3%;
+	left: 39.7%;
 	width: 300px;
 	height: 100px;
 	z-index: 20;
@@ -1327,8 +1327,8 @@ h5{
 	}
 	&:before{
 		content: "";
-		width: 150px;
-	    height: 150px;
+		width: 50px;
+	    height: 50px;
 	    border: 1px solid $violet;
 	    border-top: 1px solid transparent;
 		-webkit-border-radius: 50%;
@@ -1338,7 +1338,7 @@ h5{
 		position: absolute;
 		top: 50%;
 		font-size: 55px;
-		left: 45%;
+		left: 48%;
 		z-index: 7;
 	-webkit-animation: fa-spin .6s infinite linear;
 	   -moz-animation: fa-spin .6s infinite linear;
