@@ -107,7 +107,7 @@ $(document).ready(function(){
 
    $('.scroll-down-wrapper').click(function(){
         $("html, body").animate({
-          scrollTop: $(".section").next().offset().top
+          scrollTop: $("section").next().offset().top
         }, 1000);  
          $(this).addClass('hide');
     });//scroll-down-wrapper click
