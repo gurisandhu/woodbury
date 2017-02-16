@@ -308,6 +308,10 @@ ul{
 	}
 }
 .desktop-menu{
+	a[href*="#"]{
+		cursor: none;
+		pointer-events: none;
+	}
 	nav{
 		padding-top: 4%;
 		li{
@@ -497,11 +501,12 @@ ul{
 	}
 	a{
 		font-size: 16.5px;
+		outline: none;
 		&:hover{
-			color: white;
+			// color: white;
 			&:after{
-				border-color: $creme;
-				width: 45%;
+				// border-color: $creme;
+				// width: 45%;
 			}
 		}
 	}
@@ -658,6 +663,36 @@ ul{
 	    	        transition-duration: 1600ms;
 	    }
 	    &:nth-of-type(2n+2){
+	    	-webkit-transition-duration: 800ms;
+		       -moz-transition-duration: 800ms;
+		        -ms-transition-duration: 800ms;
+		         -o-transition-duration: 800ms;
+		            transition-duration: 800ms;
+	    }
+}
+.team-fade-in{
+	opacity: 0;
+	-webkit-transform: translate3d(0,-100px,0);
+	   -moz-transform: translate3d(0,-100px,0);
+	    -ms-transform: translate3d(0,-100px,0);
+	     -o-transform: translate3d(0,-100px,0);
+	        transform: translate3d(0,-100px,0);
+	    &.show{
+	    	-webkit-transform: translate3d(0,0px,0);
+			   -moz-transform: translate3d(0,0px,0);
+			    -ms-transform: translate3d(0,0px,0);
+			     -o-transform: translate3d(0,0px,0);
+			        transform: translate3d(0,0px,0);
+		            opacity: 1;
+	    }
+	    &:nth-of-type(2n+2){
+	    	-webkit-transition-duration: 1600ms;
+	    	   -moz-transition-duration: 1600ms;
+	    	    -ms-transition-duration: 1600ms;
+	    	     -o-transition-duration: 1600ms;
+	    	        transition-duration: 1600ms;
+	    }
+	    &:nth-of-type(2n+1){
 	    	-webkit-transition-duration: 800ms;
 		       -moz-transition-duration: 800ms;
 		        -ms-transition-duration: 800ms;
@@ -1275,22 +1310,12 @@ h5{
 	&:after{
 		display: block;
 		position: absolute;
-		bottom: 14px;
-	    left: 27px;
-	    content: "";
-	    height: 30px;
-	    width: 2px;
-		background-color: $violet;
-	}
-	&:before{
-		content: "\f107";
-		font-family: FontAwesome;
-		position: absolute;
-		bottom: 3px;
-		color: $violet;
-		left: 18.3px;
-		font-size: 30px;
-		font-weight: 100;
+		bottom: 4px;
+	    left: 9px;
+	    font-size: 38px;
+	    content: "\2794";
+	    color: $violet;
+	    @include transform (90);
 	}
 }
 

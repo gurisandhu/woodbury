@@ -19,7 +19,7 @@ get_header();
 				
 						<?php if (!get_sub_field('advisers_category')): ?>
 					
-							<div class="col-2 fade-in">
+							<div class="col-2 team-fade-in">
 								<div class="member" style="background-image: url('<?php echo get_sub_field('advisers_profile_image') ?>');">
 								</div>
 								<h5><?php echo get_sub_field('advisers_name'); ?></h5>
@@ -38,7 +38,7 @@ get_header();
 				
 						<?php if (get_sub_field('advisers_category')): ?>
 					
-							<div class="col-2 fade-in">
+							<div class="col-2 team-fade-in">
 								<div class="member" style="background-image: url('<?php echo get_sub_field('advisers_profile_image') ?>');">
 								</div>
 								<h5><?php echo get_sub_field('advisers_name'); ?></h5>

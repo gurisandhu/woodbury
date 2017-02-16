@@ -97,7 +97,16 @@ $(document).ready(function(){
         }
       });//window scroll
     });//fade-in
-
+    $('.team-fade-in').each(function(){
+      var thisEle   =   $(this);
+      var topPos    =   thisEle.offset().top;
+      $(window).scroll(function(){
+        var scrolledHeight  = $(window).scrollTop() + clientHeight/1.8;
+        if(scrolledHeight > topPos){
+          thisEle.addClass('show');
+        }
+      });//window scroll
+    });//fade-in
   // ++++++++++++++++++++
   // Scroll Down
   // ++++++++++++++++++++
@@ -128,4 +137,12 @@ $(document).ready(function(){
     $('.show-loader').addClass('hide');
   });
 
+// ++++++++++++++++++++
+// On Touch screen no hover effect
+// ++++++++++++++++++++
+  $('a').on('click touchend', function(e) {
+    var el = $(this);
+    var link = el.attr('href');
+    window.location = link;
+  });
 });//end of document ready

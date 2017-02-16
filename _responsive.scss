@@ -135,6 +135,19 @@
 			left: 40%;
 		}
 	}
+	.inner-banner{
+		&.show-loader:before{
+			top: 43%;
+		}
+	}
+	.edges{
+		&:after, &:before{
+			content: none;
+		}
+		.container{
+			min-height: auto;
+		}
+	}
 }//1160
 @media screen and (max-width: 950px){
 	// body{
@@ -207,6 +220,55 @@
 			height: 610px;
 		}
 	}
+	.process{
+		li{
+			opacity: 1;
+		}
+	}
+	.fade-in{
+		opacity: 1;
+		-webkit-transform: translate3d(0,0px,0);
+		   -moz-transform: translate3d(0,0px,0);
+		    -ms-transform: translate3d(0,0px,0);
+		     -o-transform: translate3d(0,0px,0);
+		        transform: translate3d(0,0px,0);
+		    &:nth-of-type(2n+1){
+		    	-webkit-transition-duration: 0ms;
+		    	   -moz-transition-duration: 0ms;
+		    	    -ms-transition-duration: 0ms;
+		    	     -o-transition-duration: 0ms;
+		    	        transition-duration: 0ms;
+		    }
+		    &:nth-of-type(2n+2){
+		    	-webkit-transition-duration: 0ms;
+			       -moz-transition-duration: 0ms;
+			        -ms-transition-duration: 0ms;
+			         -o-transition-duration: 0ms;
+			            transition-duration: 0ms;
+		    }
+	}
+	.team-fade-in{
+		opacity: 1;
+		-webkit-transform: translate3d(0,0px,0);
+		   -moz-transform: translate3d(0,0px,0);
+		    -ms-transform: translate3d(0,0px,0);
+		     -o-transform: translate3d(0,0px,0);
+		        transform: translate3d(0,0px,0);
+		    &:nth-of-type(2n+2){
+		    	-webkit-transition-duration: 0ms;
+		    	   -moz-transition-duration: 0ms;
+		    	    -ms-transition-duration: 0ms;
+		    	     -o-transition-duration: 0ms;
+		    	        transition-duration: 0ms;
+		    }
+		    &:nth-of-type(2n+1){
+		    	-webkit-transition-duration: 0ms;
+			       -moz-transition-duration: 0ms;
+			        -ms-transition-duration: 0ms;
+			         -o-transition-duration: 0ms;
+			            transition-duration: 0ms;
+		    }
+	}
 }//950
 @media screen and (max-width: 782px){
 	body.customize-support{
@@ -255,6 +317,20 @@
 			}
 			&:last-child{
 				left: 0;
+			}
+		}
+	}
+	.section-3b, .section-3{
+		.col-2{
+			background-color: transparent;
+			min-height: auto;
+			height: 300px;
+			background-position: 0 100%;
+			-webkit-background-size: 100%;
+			     -o-background-size: 100%;
+			        background-size: 100%;
+			&:last-child{
+				background-color: #393a4d;
 			}
 		}
 	}
@@ -481,6 +557,7 @@
 			top: 0;	
 		}
 	}
+
 }//600
 @media screen and (max-width: 400px){
 	// body{
@@ -595,5 +672,16 @@
 	}
 	.contact li:not(:first-child){
 		font-size: 14px;
+	}
+	a{
+		outline: none;
+	}
+	.banner-2{
+		width: 100%;
+		-webkit-background-size: 100%;
+		     -o-background-size: 100%;
+		        background-size: 100%;
+		    height: 180px;
+		    background-position: 0 center;
 	}
 }//400
