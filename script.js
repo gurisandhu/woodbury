@@ -145,4 +145,10 @@ $(document).ready(function(){
     var link = el.attr('href');
     window.location = link;
   });
+  $('.scroll-down-wrapper').on('click touchend', function(e) {
+        $("html, body").animate({
+          scrollTop: $("section").next().offset().top
+        }, 1000);  
+         $(this).addClass('hide');
+  });
 });//end of document ready

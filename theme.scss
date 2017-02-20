@@ -502,6 +502,7 @@ ul{
 	a{
 		font-size: 16.5px;
 		outline: none;
+		// max-width: 80%;
 		&:hover{
 			// color: white;
 			&:after{
@@ -1278,7 +1279,8 @@ h5{
 	        animation-timing-function: cubic-bezier(0.5, 0.2, 0.3, 1.0);
 	&:hover{
 		.scroll-down{
-			background-color: rgba(204, 185, 167, 0.8);
+			// background-color: rgba(204, 185, 167, 0.8);
+			opacity: .7;
 		}
 	}
 	&.animate{
@@ -1303,20 +1305,25 @@ h5{
 	margin: auto;
 	cursor: pointer;
 	@include transition(.3);
-	background-color: rgba(204, 185, 167, 0.33);
-	border: 2px solid rgba(204, 185, 167, 0.4);
-	-webkit-border-radius: 50%;
-	        border-radius: 50%;
-	&:after{
-		display: block;
-		position: absolute;
-		bottom: 4px;
-	    left: 9px;
-	    font-size: 38px;
-	    content: "\2794";
-	    color: $violet;
-	    @include transform (90);
-	}
+	background-image: url("uploads/arrow.svg");
+	background-repeat: no-repeat;
+	-webkit-background-size: 100%;
+	     -o-background-size: 100%;
+	        background-size: 100%;
+	// background-color: rgba(204, 185, 167, 0.33);
+	// border: 2px solid rgba(204, 185, 167, 0.4);
+	// -webkit-border-radius: 50%;
+	//         border-radius: 50%;
+	// &:after{
+	// 	display: block;
+	// 	position: absolute;
+	// 	bottom: 4px;
+	//     left: 9px;
+	//     font-size: 38px;
+	//     content: "\2794";
+	//     color: $violet;
+	//     @include transform (90);
+	// }
 }
 
 @-webkit-keyframes godown{
